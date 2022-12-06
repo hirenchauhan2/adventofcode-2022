@@ -41,3 +41,29 @@ Here are a few more examples:
 `zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw`: first marker after character 11
 
 **How many characters need to be processed before the first start-of-packet marker is detected?**
+
+Once the part one is solved, then open the part 2.
+
+<details>
+
+<summary>See part 2</summary>
+
+## Part Two
+
+Your device's communication system is correctly detecting packets, but still isn't working. It looks like it also needs
+to look for _messages_.
+
+A _start-of-message marker_ is just like a start-of-packet marker, except it consists of _14 distinct characters_ rather
+than 4.
+
+Here are the first positions of start-of-message markers for all of the above examples:
+
+`mjqjpqmgbljsphdztnvjfqwrcgsmlb`: first marker after character 19
+`bvwbjplbgvbhsrlpgdmjqwftvncz`: first marker after character 23
+`nppdvjthqldpwncqszvftbrmjlhg`: first marker after character 23
+`nznrnfrfntjfmvfwmzdfjlvtqnbhcprsg`: first marker after character 29
+`zcfzfwzzqfrljwzlrfnpqdbhtmscgvjw`: first marker after character 26
+
+**How many characters need to be processed before the first start-of-message marker is detected?**
+
+</details>
